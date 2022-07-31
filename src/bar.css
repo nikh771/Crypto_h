@@ -1,0 +1,53 @@
+
+.heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #26272b;
+    box-shadow: 0px 0px 12px #18191b;
+    border-radius: 8px;
+    margin: 2rem 1rem;
+    padding: .7rem 1rem;
+    font-weight: 700;
+   }
+   
+   .coin-name{
+   
+   padding-right: 300px;
+   
+     
+   }
+   
+   @media screen and(max-width:640px) {
+     .vol {
+       display: none;
+     }
+     .mkt {
+       display: none;
+     }
+     
+   }
+   
+   
+   .price{
+     padding-right: 50px;
+   }
+   
+   
+   .vol{
+     padding-right: 110px;
+   
+   
+   }
+    
+   
+   .per{
+     padding-left: 30px;
+     padding-right: 60px;
+   
+   }
+   
+   .mkt{
+     padding-right: 100px;
+   
+   }
